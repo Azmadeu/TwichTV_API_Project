@@ -1,3 +1,8 @@
+.channels-list img {
+    width:25px;
+    height: 25px;
+}
+
 body {
     background-size: cover;
     background-color: #f8ab9c;
@@ -10,14 +15,14 @@ body {
     list-style-type: none;
 }
 
-.online-panel li {
+.online-panel>ul>li {
     background-color: #f58670;
     color: #FFF;
     padding: 20px 60px;
     cursor: pointer;
 }
 
-.online-panel ul {
+.online-panel>ul {
     display: flex;
     justify-content: center;
     margin-bottom: -15px;
@@ -31,23 +36,16 @@ body {
     border-right: 1px solid white;
 }
 
-.users-list #background-li {
-    background-color: #FFF;
-    padding: 293px 236px;
-    position: absolute;
-    z-index:-999;
-}
-
-.users-list ul {
-    display:flex;
-    justify-content: center;
-}
-
-.users-list ul li {
+.channels-list ul li {
     text-decoration: none;
     list-style-type: none;
 }
 
-.users-list li {
+.channels-list li {
+
+}
+
+.background {
+    background-color: #FFF;
 
 }
